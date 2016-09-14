@@ -1,0 +1,7 @@
+<ul>
+{% for post in posts %}
+  <li> {{ post.title }} </li>
+{% else %}
+  <em>Unbelievable.  No entries here so far</em>
+{% endfor %}
+</ul>
